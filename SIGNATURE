@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 d21a889dd4c7a3e68eecfef407bb526d77a3d7b8 Build.PL
+SHA1 ce0b5c04d1176a0e4b648fcde9094662547d518c Changes
+SHA1 a5bf4d152cb3c4fd0be4c5bde20ace9fa660220a MANIFEST
+SHA1 82d89034534ab8d31c751c001687a02fcd0ce508 MANIFEST.SKIP
+SHA1 447335e1115804457b6a0e7e59a7d6e25b06ec21 META.yml
+SHA1 87d5d3b26211669f4aadad8d5d47accacf0c5555 Makefile.PL
+SHA1 7e54c9a16543abcd5b3ef8405fdc54bb3728c5ae README
+SHA1 858e29011a28d224feaa57f0de7f5cb884560b9e examples/conj.pl
+SHA1 e653a471bc1a4b13cd9940d00b255764d2308e6e examples/eratosthenes.pl
+SHA1 078d8a88d5e6ee9504fab442f2d9f275eb697f39 examples/misc.pl
+SHA1 c71067d9b1bcab4a972abf3a89d495dd82d168f1 examples/sub.pl
+SHA1 25afd96d1f3cba2fca0a75e399dede6ac7d0ce3d examples/unary.pl
+SHA1 2785ff8c07df42ed41d0ef2d973b0b89f7511ac3 lib/Lingua/tlhInganHol/yIghun.pm
+SHA1 6abca35d42e4202b544585d83f60ae6e3de1a4c0 t/'ol.t
+SHA1 5e6cb92a266d2d9416b1a92ca9926f96ff933965 t/00.load.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.11 (Darwin)
+
+iEYEARECAAYFAkohnl4ACgkQWMohlhD1QyezjgCfW5XPO5RwWfRa3mpjxgXbpAFd
+1gsAn0q1w7gBHWgyven56oO3z+eNnlgF
+=Z4Bh
+-----END PGP SIGNATURE-----
